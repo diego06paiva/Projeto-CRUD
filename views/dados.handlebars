@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Styledados.css" />
+  </head>
+  <body>
+    <h1> Meu livro - {{livros.titulos}}</h1>
+    <h1 class="tdl">{{livros.titulos}}</h1>
+    <p class="pagina">Este livro tem - {{livros.paginas}} páginas</p>
+    <a href="/livros/edit/{{livros.id}}" class="edit">Editar</a>
+    <form action="/livros/remover/{{livros.id}}" method="post">
+      <input type="submit" value="remover" />
+    </form>
+    <a href="/livros">Voltar</a>
+
+  </body>
+</html>

@@ -1,0 +1,80 @@
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sans-serif caso Arial não esteja disponível */
+  background-color: #f4f4f9; /* Define a cor de fundo do corpo da página */
+  margin: 0; /* Remove a margem padrão do corpo */
+  padding: 0; /* Remove o preenchimento padrão do corpo */
+  display: flex; /* Utiliza flexbox para o layout do corpo */
+  flex-direction: column; /* Define a direção dos elementos como coluna */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  min-height: 100vh; /* Define a altura mínima do corpo para 100% da altura da janela de visualização */
+}
+
+/* Estilos para o título */
+h1 {
+  color: #333333; /* Define a cor do texto do título */
+  margin-bottom: 20px; /* Adiciona margem inferior ao título */
+}
+
+/* Estilos para o link da página inicial */
+.home-link {
+  display: inline-block; /* Faz com que o link se comporte como um bloco, mas mantém a linha de texto */
+  margin-bottom: 20px; /* Adiciona margem inferior ao link */
+  color: #007bff; /* Define a cor do texto do link */
+  text-decoration: none; /* Remove a sublinha padrão do link */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+  border: 2px solid #007bff; /* Adiciona uma borda sólida ao redor do link */
+  padding: 5px 10px; /* Adiciona preenchimento interno ao redor do texto do link */
+  border-radius: 4px; /* Adiciona cantos arredondados à borda do link */
+  transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para a cor de fundo e cor do texto */
+}
+
+.home-link:hover {
+  background-color: #007bff; /* Altera a cor de fundo do link quando o mouse está sobre ele */
+  color: #ffffff; /* Altera a cor do texto do link quando o mouse está sobre ele */
+}
+
+/* Estilos para a lista de livros */
+.book-list {
+  list-style-type: none; /* Remove o estilo padrão de marcadores da lista */
+  padding: 0; /* Remove o preenchimento interno da lista */
+  width: 80%; /* Define a largura da lista como 80% */
+  max-width: 800px; /* Define a largura máxima da lista como 800px */
+}
+
+/* Estilos para os itens da lista de livros */
+.book-item {
+  background-color: #ffffff; /* Define a cor de fundo do item da lista */
+  margin: 20px 0; /* Adiciona margem superior e inferior ao item da lista */
+  padding: 15px; /* Adiciona preenchimento interno ao redor do conteúdo do item da lista */
+  border-left: 5px solid #007bff; /* Adiciona uma borda esquerda sólida ao item da lista */
+  border-radius: 4px; /* Adiciona cantos arredondados ao item da lista */
+  display: flex; /* Utiliza flexbox para o layout do item da lista */
+  flex-direction: column; /* Define a direção dos elementos do item da lista como coluna */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do item da lista */
+}
+
+/* Estilos para os IDs dos livros */
+.book-id {
+  font-weight: bold; /* Define o peso da fonte como negrito */
+  color: #333333; /* Define a cor do texto do ID do livro */
+}
+
+/* Estilos para os títulos dos livros */
+.book-title a {
+  font-weight: bold; /* Define o peso da fonte como negrito */
+  color: #007bff; /* Define a cor do texto do título do livro */
+  text-decoration: none; /* Remove a sublinha padrão do link do título */
+  transition: color 0.3s; /* Adiciona transição suave para a cor do texto */
+}
+
+.book-title a:hover {
+  color: #0056b3; /* Altera a cor do texto do título do livro quando o mouse está sobre ele */
+}
+
+/* Estilos para a quantidade de páginas dos livros */
+.book-pages {
+  color: #666666; /* Define a cor do texto da quantidade de páginas do livro */
+  margin-top: 5px; /* Adiciona margem superior à quantidade de páginas do livro */
+}

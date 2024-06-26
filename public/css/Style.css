@@ -1,0 +1,33 @@
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sans-serif caso Arial não esteja disponível */
+  background-color: #f0f0f0; /* Define a cor de fundo do corpo da página */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  padding: 20px; /* Adiciona preenchimento interno ao redor do conteúdo do corpo */
+}
+
+/* Estilos para o título h1 */
+h1 {
+  color: #333; /* Define a cor do texto do título h1 */
+  margin-bottom: 20px; /* Adiciona margem inferior ao título h1 */
+}
+
+/* Estilos para os links */
+a {
+  color: #007bff; /* Define a cor do texto dos links */
+  text-decoration: none; /* Remove a sublinha padrão dos links */
+  margin: 0 10px; /* Adiciona margem nos links */
+  font-size: 18px; /* Define o tamanho da fonte dos links */
+}
+
+a:hover {
+  text-decoration: underline; /* Adiciona sublinha aos links quando o mouse está sobre eles */
+}
+
+/* Estilos para o separador (o caractere '|' dentro de um <p>) */
+p {
+  display: inline-block; /* Faz com que o parágrafo se comporte como um bloco em linha */
+  color: #777; /* Define a cor do texto do parágrafo */
+  font-size: 20px; /* Define o tamanho da fonte do parágrafo */
+  margin: 0 10px; /* Adiciona margem nos lados do parágrafo */
+}
