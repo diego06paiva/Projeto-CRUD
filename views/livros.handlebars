@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Livros</title>
+    <link rel="stylesheet" href="/css/livros.css" />
+  </head>
+  <body>
+    <h1>Lista de Livros</h1>
+    <a href="/index" class="home-link">Página inicial</a>
+
+    <ul class="book-list">
+      {{#each livros}}
+        <li class="book-item">
+          <span class="book-id">#{{this.id}} -</span>
+          <span class="book-title"><a
+              href="/dados/{{this.id}}"
+            >{{this.titulos}}</a></span>
+          <span class="book-pages">{{this.paginas}} páginas</span>
+        </li>
+      {{/each}}
+    </ul>
+  </body>
+</html>

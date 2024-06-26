@@ -1,0 +1,71 @@
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sans-serif caso Arial não esteja disponível */
+  background-color: #f4f4f9; /* Define a cor de fundo do corpo da página */
+  margin: 0; /* Remove a margem padrão do corpo */
+  padding: 0; /* Remove o preenchimento padrão do corpo */
+  display: flex; /* Utiliza flexbox para o layout do corpo */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Define a altura do corpo para 100% da altura da janela de visualização */
+}
+
+/* Estilos para o formulário */
+form {
+  background-color: #ffffff; /* Define a cor de fundo do formulário */
+  padding: 20px; /* Adiciona preenchimento ao redor do conteúdo do formulário */
+  border-radius: 8px; /* Adiciona cantos arredondados ao formulário */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do formulário */
+  max-width: 400px; /* Define a largura máxima do formulário */
+  width: 100%; /* Define a largura do formulário para ocupar 100% do espaço disponível */
+  text-align: center; /* Centraliza o texto dentro do formulário */
+}
+
+/* Estilos para os rótulos (labels) */
+label {
+  display: block; /* Faz com que o rótulo ocupe a largura total disponível */
+  margin: 15px 0 5px; /* Adiciona margem superior de 15px e inferior de 5px ao rótulo */
+  font-size: 16px; /* Define o tamanho da fonte do rótulo */
+  color: #333333; /* Define a cor do texto do rótulo */
+}
+
+/* Estilos para os campos de entrada (inputs) */
+input[type="text"],
+input[type="number"] {
+  width: 100%; /* Define a largura do campo de entrada para ocupar 100% do espaço disponível */
+  padding: 10px; /* Adiciona preenchimento interno ao campo de entrada */
+  margin-bottom: 10px; /* Adiciona margem inferior ao campo de entrada */
+  border: 1px solid #cccccc; /* Define uma borda de 1px de cor cinza ao campo de entrada */
+  border-radius: 4px; /* Adiciona cantos arredondados ao campo de entrada */
+  font-size: 16px; /* Define o tamanho da fonte do campo de entrada */
+  box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo da largura e altura do campo de entrada */
+}
+
+/* Estilos para o botão de envio */
+button {
+  background-color: #007bff; /* Define a cor de fundo do botão */
+  color: white; /* Define a cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+  border-radius: 4px; /* Adiciona cantos arredondados ao botão */
+  font-size: 16px; /* Define o tamanho da fonte do botão */
+  cursor: pointer; /* Altera o cursor para uma mão quando passar sobre o botão */
+  margin-top: 10px; /* Adiciona margem superior ao botão */
+}
+
+/* Estilos para o botão de envio ao passar o mouse */
+button:hover {
+  background-color: #0056b3; /* Altera a cor de fundo do botão quando o mouse está sobre ele */
+}
+
+/* Estilos para o link */
+a {
+  display: block; /* Faz com que o link ocupe a largura total disponível */
+  margin-top: 10px; /* Adiciona margem superior ao link */
+  color: #007bff; /* Define a cor do texto do link */
+  text-decoration: none; /* Remove a sublinha padrão do link */
+}
+
+a:hover {
+  text-decoration: underline; /* Adiciona uma sublinha ao texto do link quando o mouse está sobre ele */
+}

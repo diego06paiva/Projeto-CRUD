@@ -1,0 +1,64 @@
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sans-serif caso Arial não esteja disponível */
+  background-color: #f0f0f0; /* Define a cor de fundo do corpo da página */
+  padding: 20px; /* Adiciona preenchimento interno ao redor do conteúdo do corpo */
+}
+
+/* Estilos para o título h1 */
+h1 {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  color: #333; /* Define a cor do texto do título h1 */
+  margin-top: 20px; /* Adiciona margem superior ao título h1 */
+}
+
+/* Estilos para o h1 com a classe 'tdl' */
+h1.tdl {
+  font-size: 24px; /* Define o tamanho da fonte para h1 com classe 'tdl' */
+  font-weight: bold; /* Define o peso da fonte como negrito para h1 com classe 'tdl' */
+  text-align: center; /* Centraliza o texto horizontalmente para h1 com classe 'tdl' */
+  color: #1e90ff; /* Define a cor do texto para h1 com classe 'tdl' (azul) */
+}
+
+/* Estilos para o parágrafo com a classe 'pagina' */
+p.pagina {
+  text-align: center; /* Centraliza o texto horizontalmente para parágrafos com classe 'pagina' */
+  color: #666; /* Define a cor do texto para parágrafos com classe 'pagina' */
+  font-size: 18px; /* Define o tamanho da fonte para parágrafos com classe 'pagina' */
+}
+
+/* Estilos para o link de editar */
+a.edit {
+  display: block; /* Faz com que o link se comporte como um bloco */
+  width: 120px; /* Define a largura do link de editar */
+  text-align: center; /* Centraliza o texto horizontalmente no link de editar */
+  margin: 20px auto; /* Adiciona margem ao redor do link de editar */
+  padding: 10px; /* Adiciona preenchimento interno ao redor do texto do link de editar */
+  background-color: #007bff; /* Define a cor de fundo do link de editar (azul) */
+  color: white; /* Define a cor do texto do link de editar */
+  text-decoration: none; /* Remove a sublinha padrão do link de editar */
+  border-radius: 5px; /* Adiciona cantos arredondados ao link de editar */
+}
+
+a.edit:hover {
+  background-color: #0056b3; /* Altera a cor de fundo do link de editar para um azul mais escuro ao passar o mouse */
+}
+
+/* Estilos para o formulário de remover */
+form {
+  text-align: center; /* Centraliza o conteúdo do formulário horizontalmente */
+  margin-top: 20px; /* Adiciona margem superior ao formulário */
+}
+
+/* Estilos para o link de voltar */
+a {
+  display: block; /* Faz com que o link se comporte como um bloco */
+  text-align: center; /* Centraliza o texto horizontalmente no link */
+  margin-top: 20px; /* Adiciona margem superior ao link */
+  color: #007bff; /* Define a cor do texto do link (azul) */
+  text-decoration: none; /* Remove a sublinha padrão do link */
+}
+
+a:hover {
+  text-decoration: underline; /* Adiciona sublinha ao texto do link ao passar o mouse */
+}
